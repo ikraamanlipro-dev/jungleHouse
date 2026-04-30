@@ -1,0 +1,30 @@
+.banner {
+    display: flex; /* disposition flex pour aligner logo et titre */
+    justify-content: space-between; /* espace entre éléments */
+    align-items: center; /* centrage vertical */
+    height: 12vh; /* hauteur du banner */
+    padding: 1rem 2rem; /* marges internes */
+    background: linear-gradient(135deg, var(--light-bg) 0%, #ffffff 100%); /* dégradé de fond */
+    border-bottom: 3px solid var(--primary-color); /* bordure inférieure */
+    box-shadow: var(--shadow); /* ombre portée */
+    transition: all 0.3s ease; /* animation fluide */
+}
+
+
+.title {
+    font-size: 2rem; /* taille du texte */
+    color: red; /* couleur rouge */
+    font-family: 'Times New Roman', Times, serif; /* police serif */
+    margin: 0; /* sans marge */
+    text-align: right; /* aligné à droite */
+}
+
+.logo {
+    display: block; /* empêche l'image d'être inline */
+    width: auto; /* adapte la largeur */
+    height: 6vh; /* hauteur fixe pour cohérence */
+    border-radius: 20%; /* coins arrondis */
+    
+}
+
+
