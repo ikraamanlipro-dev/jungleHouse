@@ -1,0 +1,7 @@
+.cart {
+     display: flex;
+    padding: 32px;
+    background-color: #31b572;
+    color: white;
+    list-style: none;
+}
